@@ -97,7 +97,7 @@ void valaszt() {			// Navigálás a főmenüben
 				printf(">   Újra: ismét az adott játékos forgat.\n");
 				printf(">   Szám: az adott játékos mondhat egy betűt, és ha a betű szerepel a kitalálandó kifejezésben (és még nem volt), akkor a játékos megkapja az összeget,amely után vagy újra forgat "); 
 				printf("vagy rákérdez a megoldásra. Ha nem találta el az adott betűt, vagy rákérdezett, de nem találta el a megfejtendő kifejezést, akkor a következő játékos forgathat. Ha megfejtette, akkor ő nyert, és vége a játéknak.\n\n");
-				printf("A keresendő kifejezést a %s fájl első sorában kell megadni, a kifejezés bármilyen ASCII kódot tartalmazhat.\n", FILE_NEV);
+				printf("A keresendő kifejezést a %s fájl első sorában kell megadni, a kifejezés whitespaceket NEM tartalmazhat.\n", FILE_NEV);
 				fflush(stdin);
 				printf("Kérlek válassz!\n");
 				printf("\n");
