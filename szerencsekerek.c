@@ -1,7 +1,5 @@
 #include "szerencsekerek.h"
 
-
-
 char opcio;
 bool fut = true; 
 unsigned int nyeremeny = 0;
