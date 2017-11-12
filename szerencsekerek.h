@@ -25,8 +25,6 @@
 
 /* GLOBÁLIS VÁLTOZÓK */
 
-extern FILE *fin;
-
 extern char opcio;
 extern bool fut; 
 extern unsigned int nyeremeny;
